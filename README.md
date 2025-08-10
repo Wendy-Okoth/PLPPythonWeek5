@@ -84,3 +84,35 @@ Multiple classes (`Cat` and `Horse`) share the same method name `move()` but imp
 animals = [Cat(), Horse()]
 for animal in animals:
     animal.move()
+```
+
+This repository has two Python OOP files:
+
+- **Assignment 1**: Television Class with inheritance.
+- **Activity 2**: Polymorphism with Animals.
+
+---
+
+##  How to access this project
+
+### Clone the Repository
+
+Open your terminal or command prompt and run:
+
+```bash
+git clone https://github.com/Wendy-Okoth/PLPPythonWeek5.git
+cd PLPPythonWeek5
+
+Assignment 1: Television Class
+Run the assignment1.py script:
+
+python assignment1.py
+This will launch the demonstration of the Television and SmartTelevision classes—showing how to turn the TV on/off, display info, and open streaming apps.
+
+Activity 2: Polymorphism Challenge – Animals
+Run the activity2.py script:
+
+python activity2.py
+This demonstrates polymorphism with the Cat and Horse classes, each defining its own version of the move() method.
+
+
